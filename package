@@ -1,1 +1,19 @@
-
+{
+  "name": "smart-school-aspiring-sync",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@supabase/supabase-client": "^2.39.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.10.3",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.1",
+    "lucide-react": "^0.294.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
