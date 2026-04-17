@@ -1,1 +1,6 @@
+import { createClient } from '@supabase/supabase-client';
 
+const supabaseUrl = 'https://URL_PROJECT_ANDA.supabase.co';
+const supabaseAnonKey = 'API_KEY_ANON_ANDA';
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
